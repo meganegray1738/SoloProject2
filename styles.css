@@ -1,0 +1,40 @@
+header {
+    background-color: darkslateblue;
+    padding: 25px;
+    display: flex;
+   align-items: center;
+}
+
+.logo {
+    padding: 20px;
+    width: 150px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+
+.content .Sidebar {
+    max-width: 500px;
+    padding: 30px 70px;
+    background-color: cornflowerblue;
+    box-shadow: 4px 8px 8px 8px #dadada;
+}
+
+.content .displayedPage {
+    width: 65%;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
